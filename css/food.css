@@ -1,0 +1,112 @@
+body{
+    background-image:url("../p1_images/MFB2.jpg");
+    background-size:cover;
+}
+
+h1{
+    text-align:center;
+    color:rgb(255, 255, 255);
+    background-color:red;
+    width:500;
+    margin-left:auto;
+    margin-right:auto;
+    animation-name:rotation;
+    animation-duration:2s;
+}
+
+li{
+    font-family:'Times New Roman', Times, serif;
+    width:300;
+    background-color:rgb(216, 174, 95);
+}
+
+.ingredient{
+    text-align:center;
+    width:300;
+    color:azure;
+    background-color:red;
+    font-size:large;   
+}
+
+.Tamales{
+    margin-left:40;
+}
+
+.Tamales img{
+    display:block;
+    width:300;
+    height:300;
+    border: 1px solid brown;
+}
+
+.Tamales img:hover{
+    outline:2px solid yellow;
+    animation-name:transition;
+    animation-duration:4s;
+}
+
+.Horchata{
+    margin-left:20;
+}
+
+.Horchata img{
+    width:300;
+    height:300;
+    border:1px solid brown;
+    display:block;
+    margin-right: auto;
+}
+
+.Horchata img:hover{
+    outline:2px solid aqua;
+    animation-name:transition;
+    animation-duration:4s;
+}
+
+.Tacos{
+    margin-left:20;
+}
+
+.Tacos img{
+    display:block;
+    width:300;
+    height:300;
+    border: 1px solid brown;
+}
+
+.Tacos img:hover{
+    outline:2px solid red;
+    animation-name:transition;
+    animation-duration:4s;
+}
+
+.Tortillas{
+    margin-left:20;
+}
+
+.Tortillas img{
+    display:block;
+    width:300;
+    height:300;
+    border: 1px solid brown;
+}
+
+.Tortillas img:hover{
+    outline:2px solid plum;
+    animation-name:transition;
+    animation-duration:4s;
+}
+
+li:hover{
+    background-color:aliceblue;
+}
+
+@keyframes rotation{
+    from {transform: rotate(360deg);}
+    to {}
+}
+
+@keyframes transition{
+    from {width:300; height:300;}
+    to{ width:400; height: 400;}
+}
