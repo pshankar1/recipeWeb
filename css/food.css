@@ -101,6 +101,13 @@ li:hover{
     background-color:aliceblue;
 }
 
+.title{
+    text-align: center;
+    background-color:yellow;
+    color: red;
+    font-size:20;
+    animation: flash 4s infinite;
+}
 @keyframes rotation{
     from {transform: rotate(360deg);}
     to {}
@@ -110,3 +117,9 @@ li:hover{
     from {width:300; height:300;}
     to{ width:400; height: 400;}
 }
+@keyframes flash {
+    0%   {background-color: white;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color:black;}
+  }
